@@ -391,7 +391,7 @@ export class ARExperience {
 
     // Flag behind the monument, with shader-rendered 24-spoke Chakra.
     const flag = createAnimatedFlag();
-    flag.position.set(-0.51, 0.26, 0.29);
+    flag.position.set(-0.30, 0.26, 0.29);
     flag.scale.setScalar(0.74);
     this.flagMaterial = flag.userData.flagMaterial;
 
