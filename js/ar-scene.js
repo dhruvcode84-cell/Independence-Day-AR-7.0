@@ -129,7 +129,7 @@ function createVideoPanel(video) {
   screen.position.z = 0.026;
 
   group.add(glow, frame, screen);
-  group.position.set(0.18, 0.14, 0.69);
+  group.position.set(0.18,0.14,0.54);
   group.rotation.y = -0.10;
   group.userData.screen = screen;
   return group;
@@ -373,7 +373,7 @@ export class ARExperience {
       targetSize: 0.66,
       axis: "height"
     }));
-    gate.position.set(-0.36, -0.28, 0.42);
+    gate.position.set(-0.30,-0.28,0.30);
     gate.rotation.y = 0.04;
     this.contentRoot.add(gate);
 
@@ -391,7 +391,7 @@ export class ARExperience {
 
     // Flag behind the monument, with shader-rendered 24-spoke Chakra.
     const flag = createAnimatedFlag();
-    flag.position.set(-0.41, 0.26, 0.29);
+    flag.position.set(-0.36,0.26,0.18);
     flag.scale.setScalar(0.74);
     this.flagMaterial = flag.userData.flagMaterial;
 
